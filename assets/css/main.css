@@ -2244,7 +2244,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("/GitHub/CadoFox.github.io/images/PressShots/CF_PressHB_AgainstWall.png");
+		background: url("images/overlay.png"), url("/images/PressShots/CF_PressHB_AgainstWall.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2254,7 +2254,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("/GitHub/CadoFox.github.io/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png");
+		background: url("images/overlay.png"), url("/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,7 +2263,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("");
+		background: url("images/overlay.png"), url("/images/PressShots/CF_PressHB_AgainstWall-Gradient.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
