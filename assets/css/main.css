@@ -2245,10 +2245,10 @@ input, select, textarea {
 
 	#intro {
 		background: url("/images/PressShots/CF_PressHB_AgainstWall.png");
-		background-size: 256px 256px,cover;
+		background-size: 100%,cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
+		background-repeat: no-repeat;
 	}
 
 /* One */
