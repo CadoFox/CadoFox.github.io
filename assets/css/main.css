@@ -2313,8 +2313,13 @@ input, select, textarea {
 
 
 
-#cftext {
-	background: url("/images/Logos/CF_Text_W\ -\ Medium.png");
+	#cftext {
+		background: url("/images/Logos/CF_Text_W\ -\ Medium.png");
+		background-position: contain;
+		background-attachment: local;
+		background-size: 30%;
+		background-repeat: no-repeat;
+		
 
 
 }
