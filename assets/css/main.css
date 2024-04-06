@@ -2244,7 +2244,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/assets/css/images/overlay.png"), url("/images/PressShots/CF_PressHB_AgainstWall-Gradient.png");
+		background: url("/assets/css/images/overlay.png"), url("/images/PressShots/CF_PressHB_AgainstWall.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
