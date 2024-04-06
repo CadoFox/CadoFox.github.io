@@ -2247,7 +2247,7 @@ input, select, textarea {
 		background: url("/images/PressShots/CF_PressHB_AgainstWall.png");
 		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: center;
 		background-repeat: repeat, no-repeat;
 	}
 
