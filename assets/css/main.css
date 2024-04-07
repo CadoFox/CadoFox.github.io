@@ -2338,22 +2338,17 @@ input, select, textarea {
 
 /* Custom Fonts */
 @font-face {
-	font-family: 'adedisplay';
+	font-family: 'ade_display';
 	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff2'),
-	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff'),
 }
 
 @font-face {
-	font-family: 'eliantoregular';
-	src: url('/assets/webfonts/Alianto\ Regular/elianto-regular-webfont') format('woff2'),
-		 url('/assets/webfonts/Alianto\ Regular/elianto-regular-webfont') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
+	font-family: 'elianto_regular';
+	src: url('/assets/webfonts/Elianto\ Regular/elianto-regular-webfont') format('woff2'),
 }
 
 @font-face {
-	font-family: 'cagerollstandard';
+	font-family: 'cageroll_standard';
 	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff2'),
 		 url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff');
 	font-weight: normal;
@@ -2362,7 +2357,7 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'dalfitraregular';
+	font-family: 'dalfitra_regular';
 	src: url('/assets/webfonts/Dafiltra\ Regular/dalfitra-webfont') format('woff2'),
 		 url('/assets/webfonts/Dafiltra\ Regular/dalfitra-webfont') format('woff');
 	font-weight: normal;
@@ -2371,7 +2366,7 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'hybridbold';
+	font-family: 'hybrid_bold';
 	src: url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff2') format('woff2'),
 		 url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff') format('woff');
 	font-weight: normal;
