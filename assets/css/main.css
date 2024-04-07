@@ -2331,7 +2331,7 @@ input, select, textarea {
 	}
 
 	#introsubtitle{
-		font-family: 'adedisplay';
+		font-family: 'elianto_regular';
 		font-weight: normal;
   		font-style: normal;
 }
@@ -2339,7 +2339,7 @@ input, select, textarea {
 /* Custom Fonts */
 @font-face {
 	font-family: 'ade_display';
-	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff2'),
+	src: url('/assets/webfonts/Ade\ Display/ade-display-webfont') format('woff2'),
 }
 
 @font-face {
