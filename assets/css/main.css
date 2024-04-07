@@ -501,7 +501,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: 'dalfiltraregular';
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -2334,6 +2334,7 @@ input, select, textarea {
 		font-family: 'eliantoregular';
 		font-weight: normal;
   		font-style: normal;
+		font-size: larger;
 }
 
 /* Custom Fonts */
@@ -2346,6 +2347,7 @@ input, select, textarea {
 @font-face {
 	font-family: 'eliantoregular';
 	src: url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff2') format('woff2'),
+		 url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff') format('woff'),
 
 }
 
@@ -2357,7 +2359,7 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'dalfitraregular';
+	font-family: 'dalfiltraregular';
 	src: url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff2') format('woff2'),
 		 url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff') format('woff');
 
