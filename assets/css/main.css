@@ -2329,7 +2329,7 @@ input, select, textarea {
 
 	}
 
-	.introsubtitle{
+	#introsubtitle{
 		font-family: adedisplay;
 		font-weight: normal;
   		font-style: normal;
