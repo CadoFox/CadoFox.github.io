@@ -2329,6 +2329,12 @@ input, select, textarea {
 
 	}
 
+	.introsubtitle{
+		font-family: adedisplay;
+		font-weight: normal;
+  		font-style: normal;
+}
+
 /* Custom Fonts */
 	@font-face {
 		font-family: 'adedisplay';
