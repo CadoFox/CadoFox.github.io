@@ -2345,8 +2345,8 @@ input, select, textarea {
 
 @font-face {
 	font-family: 'eliantoregular';
-	src: url('/assets/webfonts/Alianto\ Regular/cf_-_elianto-regular-webfont') format('woff2'),
-		 url('/assets/webfonts/Alianto\ Regular/cf_-_elianto-regular-webfont') format('woff');
+	src: url('/assets/webfonts/Alianto\ Regular/elianto-regular-webfont') format('woff2'),
+		 url('/assets/webfonts/Alianto\ Regular/elianto-regular-webfont') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
