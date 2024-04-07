@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
+
 /*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -2336,54 +2337,52 @@ input, select, textarea {
 }
 
 /* Custom Fonts */
-	@font-face {
-		font-family: 'adedisplay';
-		src: url('/assets/webfonts/Ade\ Display/ade-display-webfont.woff2') format('woff2'),
-			 url('/assets/webfonts/Ade\ Display/ade-display-webfont.woff2') format('woff2'),
-	
-	}
+@font-face {
+	font-family: 'adedisplay';
+	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff2'),
+}
 
-	@font-face {
-		font-family: 'eliantoregular';
-		src: url('cf_-_elianto-regular-webfont.woff2') format('woff2'),
-			 url('cf_-_elianto-regular-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	
-	}
+@font-face {
+	font-family: 'eliantoregular';
+	src: url('cf_-_elianto-regular-webfont.woff2') format('woff2'),
+		 url('cf_-_elianto-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 
-	@font-face {
-		font-family: 'cagerollstandard';
-		src: url('cageroll-standard-webfont.woff2') format('woff2'),
-			 url('cageroll-standard-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	
-	}
+}
 
-	@font-face {
-		font-family: 'dalfitraregular';
-		src: url('dalfitra-webfont.woff2') format('woff2'),
-			 url('dalfitra-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	
-	}
+@font-face {
+	font-family: 'cagerollstandard';
+	src: url('cageroll-standard-webfont.woff2') format('woff2'),
+		 url('cageroll-standard-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 
-	@font-face {
-		font-family: 'hybridbold';
-		src: url('hybrid_b-webfont.woff2') format('woff2'),
-			 url('hybrid_b-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	
-	}
+}
 
-	@font-face {
-		font-family: 'planet_kosmosregular';
-		src: url('plank___-webfont.woff2') format('woff2'),
-			 url('plank___-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	
-	}
+@font-face {
+	font-family: 'dalfitraregular';
+	src: url('dalfitra-webfont.woff2') format('woff2'),
+		 url('dalfitra-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'hybridbold';
+	src: url('hybrid_b-webfont.woff2') format('woff2'),
+		 url('hybrid_b-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'planet_kosmosregular';
+	src: url('plank___-webfont.woff2') format('woff2'),
+		 url('plank___-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
