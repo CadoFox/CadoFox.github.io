@@ -2357,7 +2357,7 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'dalfitra_regular';
+	font-family: 'dalfitraregular';
 	src: url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff2') format('woff2'),
 		 url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff') format('woff');
 
@@ -2365,7 +2365,7 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'hybrid_bold';
+	font-family: 'hybridbold';
 	src: url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff2') format('woff2'),
 		 url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff') format('woff');
 	font-weight: normal;
