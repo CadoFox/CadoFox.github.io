@@ -2331,6 +2331,7 @@ input, select, textarea {
 	}
 	.logo.headerlogo{
 		width: fit-content;
+		height: 100%;
 	}
 
 	#introsubtitle{
