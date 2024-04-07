@@ -2049,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #000000;
 			}
 
 		.main.dark {
@@ -2393,10 +2393,10 @@ input, select, textarea {
 }
 
 ::placeholder {
-	color: #8d8d8d;
+	color: #bbbbbb;
 }
 
 #intro.blur {
 	filter: blur(10px);
-	
+
 }
