@@ -622,8 +622,9 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #000000;
-		color: #b7bfc4;
+		background: #00000094;
+		color: #ffffff;
+		border-radius: 3%;
 		padding: 2em;
 	}
 
@@ -643,7 +644,7 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
+					background-color: rgba(0, 0, 0, 0.9);
 				}
 
 		}
@@ -859,7 +860,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		color: #39454b;
+		color: #7e7e7e;
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
@@ -2044,7 +2045,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
@@ -2389,4 +2390,13 @@ input, select, textarea {
 	font-weight: normal;
 	font-style: normal;
 
+}
+
+::placeholder {
+	color: #8d8d8d;
+}
+
+#intro.blur {
+	filter: blur(10px);
+	
 }
