@@ -2329,6 +2329,9 @@ input, select, textarea {
 		
 
 	}
+	.logo.headerlogo{
+		width: fit-content;
+	}
 
 	#introsubtitle{
 		font-family: 'eliantoregular';
