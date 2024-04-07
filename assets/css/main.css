@@ -2338,30 +2338,29 @@ input, select, textarea {
 
 /* Custom Fonts */
 @font-face {
-	font-family: 'ade_display';
-	src: url('/assets/webfonts/Ade\ Display/ade-display-webfont') format('woff2'),
+	font-family: 'adedisplay';
+	src: url('/assets/webfonts/AdeDisplay/ade-display-webfont.woff2') format('woff2'),
+	     url('/assets/webfonts/AdeDisplay/ade-display-webfont.woff') format('woff'),
 }
 
 @font-face {
-	font-family: 'elianto_regular';
-	src: url('/assets/webfonts/Elianto\ Regular/elianto-regular-webfont') format('woff2'),
+	font-family: 'eliantoregular';
+	src: url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff2') format('woff2'),
+		 url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff') format('woff'),
 }
 
 @font-face {
-	font-family: 'cageroll_standard';
-	src: url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff2'),
-		 url('/assets/webfonts/Cageroll\ Standard\ Regular/cageroll-standard-webfont') format('woff');
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'cagerollstandard';
+	src: url('/assets/webfonts/CagerollStandardRegular/cageroll-standard-webfont.woff2') format('woff2'),
+		 url('/assets/webfonts/CagerollStandardRegular/cageroll-standard-webfont.woff') format('woff');
 
 }
 
 @font-face {
 	font-family: 'dalfitra_regular';
-	src: url('/assets/webfonts/Dafiltra\ Regular/dalfitra-webfont') format('woff2'),
-		 url('/assets/webfonts/Dafiltra\ Regular/dalfitra-webfont') format('woff');
-	font-weight: normal;
-	font-style: normal;
+	src: url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff2') format('woff2'),
+		 url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff') format('woff');
+
 
 }
 
@@ -2375,9 +2374,9 @@ input, select, textarea {
 }
 
 @font-face {
-	font-family: 'planet_kosmosregular';
-	src: url('/assets/webfonts/Planet\ Kosmos\ Regular/planet_kosmosregular') format('woff2'),
-		 url('/assets/webfonts/Planet\ Kosmos\ Regular/planet_kosmosregular') format('woff');
+	font-family: 'planetkosmosregular';
+	src: url('/assets/webfonts/PlanetKosmos/plank___-webfont.woff2') format('woff2'),
+		 url('/assets/webfonts/PlanetKosmos/plank___-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
