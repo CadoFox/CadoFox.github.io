@@ -2338,10 +2338,8 @@ input, select, textarea {
 /* Custom Fonts */
 	@font-face {
 		font-family: 'adedisplay';
-		src: url('ade-display-webfont.woff2') format('woff2'),
-			 url('ade-display-webfont.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
+		src: url('/assets/webfonts/Ade\ Display/ade-display-webfont.woff2') format('woff2'),
+			 url('/assets/webfonts/Ade\ Display/ade-display-webfont.woff2') format('woff2'),
 	
 	}
 
