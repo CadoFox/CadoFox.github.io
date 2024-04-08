@@ -2410,19 +2410,20 @@ input, select, textarea {
 
 }
 
-#showcase {
-	height: 20%;
+.showcase {
+	height: 50%;
     background-size: 256px 256px, cover;
     background-attachment: relative, relative;
     background-position: top left, center center;
 }
 
-#sc1 {
-	background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
-}
-#sc2 {
-	background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_AgainstWall-Gradient.png);
-}
-#sc3 {
-	background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png);
-}
+	.sc1 {
+		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
+	}
+	.sc2 {
+		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_AgainstWall-Gradient.png);
+	}
+	.sc3 {
+		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png);
+	}
+
