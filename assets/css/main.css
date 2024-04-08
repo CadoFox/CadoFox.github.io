@@ -507,7 +507,7 @@ input, select, textarea {
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #ffffff;
-		letter-spacing: 0.025em;
+		letter-spacing: 0.04em;
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body {
-				padding-top: 2.5em;
+				padding-top: 0em;
 			}
 
 		}
