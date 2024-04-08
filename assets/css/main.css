@@ -960,7 +960,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 	}
-
+/*
 		.image:before {
 			content: '';
 			position: absolute;
@@ -968,9 +968,9 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("/assets/css/images/overlay.png");
+			background: url("/assets/css/images/overlay.png"); 
 		}
-
+*/
 		.image img {
 			display: block;
 			width: 100%;
