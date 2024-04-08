@@ -2249,7 +2249,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/assets/css/images/overlay.png"),url("/gifs/CF_WalkThroughFrames.gif");
+		background: url("/assets/css/images/overlay.png"),url("https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_LoneFoxSpin.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2415,7 +2415,6 @@ input, select, textarea {
     flex-direction: column;
     background-position: center;
 	background-attachment: relative, relative;
-    background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
 	height: 45em;
     width: 100%;
 	z-index: 100;
