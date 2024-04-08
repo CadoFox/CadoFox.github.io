@@ -2425,7 +2425,7 @@ input, select, textarea {
 	display: flex;
     flex-direction: column;
     background-position: center;
-	background-attachment: relative, relative;
+	background-attachment: fixed;
 	height: 90em;
     width: 100%;
 	z-index: 100;
