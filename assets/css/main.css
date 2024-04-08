@@ -1906,9 +1906,7 @@ input, select, textarea {
 					display: none;
 				}
 
-				#headerlogo {
-					display: none;
-				}
+
 
 		}
 
@@ -2341,7 +2339,12 @@ input, select, textarea {
 		height: 100%;
 		width: auto;
 		padding: 1%;
-	}
+	 }
+		@media screen and (max-width: 736px){
+			#headerlogo {
+				display: none;
+			}
+		}
 
 	#introsubtitle{
 		font-family: 'dalfiltraregular';
