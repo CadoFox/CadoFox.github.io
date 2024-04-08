@@ -2441,7 +2441,7 @@ input, select, textarea {
 		background-position: center;
 	}
 	.sc2 {
-		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_AgainstWall-Gradient.png);
+		background:url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_FlyinAround.gif);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
@@ -2449,7 +2449,7 @@ input, select, textarea {
 		background-position: center;
 	}
 	.sc3 {
-		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png);
+		background:url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_F401_RefracDecoFrames.gif);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
