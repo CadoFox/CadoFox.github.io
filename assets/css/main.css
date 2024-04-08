@@ -2328,7 +2328,7 @@ input, select, textarea {
 }
 
 		@media screen and (max-width: 1000px) {
-			.cftext {
+			#cftext {
 				padding: 10em;
 				padding-top: 8em;
 				padding-bottom: 0em;
