@@ -2249,10 +2249,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/assets/css/images/overlay.png"),url("https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_LoneFoxSpin.gif");
-		background-size: 256px 256px, cover;
+		background: url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_LoneFoxSpin.gif);
+		background-size: cover;
+		width: 100%;
+		height: 100%;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: center;
 	}
 
 /* One */
@@ -2422,7 +2424,7 @@ input, select, textarea {
 }
 
 	.sc1 {
-		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
+		background: url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_WalkThroughFrames.gif);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
