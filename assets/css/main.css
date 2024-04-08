@@ -1909,7 +1909,7 @@ input, select, textarea {
 		}
 
 	body {
-		padding-top: 0em;
+	/*	padding-top: 0em; */
 	}
 
 		@media screen and (max-width: 736px) {
