@@ -2411,19 +2411,39 @@ input, select, textarea {
 }
 
 .showcase {
-	height: 50%;
-    background-size: 256px 256px, cover;
-    background-attachment: relative, relative;
-    background-position: top left, center center;
+	display: flex;
+    flex-direction: column;
+    background-position: center;
+	background-attachment: relative, relative;
+    background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
+	height: 45em;
+    width: 100%;
+	z-index: 100;
+    padding: 0 0 0 0;
 }
 
 	.sc1 {
 		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressFB_Leaning-Orange.png);
+		background-size: cover;
+		background-attachment: inherit;
+		width: inherit;
+		height: inherit;
+		background-position: center;
 	}
 	.sc2 {
 		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_AgainstWall-Gradient.png);
+		background-size: cover;
+		background-attachment: inherit;
+		width: inherit;
+		height: inherit;
+		background-position: center;
 	}
 	.sc3 {
 		background: url(/assets/css/images/overlay.png), url(/images/PressShots/CF_PressHB_Live_HandsUp-Orange-Gradient.png);
+		background-size: cover;
+		background-attachment: inherit;
+		width: inherit;
+		height: inherit;
+		background-position: center;
 	}
 
