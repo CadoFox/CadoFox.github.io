@@ -1906,6 +1906,10 @@ input, select, textarea {
 					display: none;
 				}
 
+				#headerlogo {
+					display: none;
+				}
+
 		}
 
 	body {
@@ -2344,6 +2348,7 @@ input, select, textarea {
 		font-weight: normal;
   		font-style: normal;
 		font-size: larger;
+		padding-top: 2em;
 }
 
 /* Custom Fonts */
