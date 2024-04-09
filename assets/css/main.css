@@ -2433,12 +2433,18 @@ input, select, textarea {
 }
 
 	.sc1 {
-		background: url(/videos/CF_FlyinAround-720.mp4);
+		/* background: url(/videos/CF_FlyinAround-720.mp4); 
 		background-size: cover;
-		background-attachment: inherit;
+		background-attachment: inherit; */
+
 		width: inherit;
 		height: inherit;
 		background-position: center;
+		height: 100%; 
+		width: 100%; 
+		object-fit: cover; 
+		object-position: center center; 
+		opacity: 1;
 	}
 	.sc2 {
 		background:url(/videos/CF_WalkThroughFrames.mp4);
