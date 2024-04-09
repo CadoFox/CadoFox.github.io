@@ -2464,11 +2464,13 @@ input, select, textarea {
 	}
 
 .showcasevideo {
-	height: 100%;
-	width: 100%;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
 	position: fixed;
-	object-fit: cover; 
-	object-position: center center; 
-	opacity: 1;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 
 }
