@@ -2249,7 +2249,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_LoneFoxSpin.gif);
+		background: url(/videos/CF_LoneFoxSpin.gif);
 		background-size: cover;
 		width: 100%;
 		height: 100%;
@@ -2433,7 +2433,7 @@ input, select, textarea {
 }
 
 	.sc1 {
-		background: url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_WalkThroughFrames.gif);
+		background: url(/videos/CF_FlyinAround-720.mp4);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
@@ -2441,7 +2441,7 @@ input, select, textarea {
 		background-position: center;
 	}
 	.sc2 {
-		background:url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_FlyinAround.gif);
+		background:url(/videos/CF_WalkThroughFrames.mp4);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
@@ -2449,7 +2449,7 @@ input, select, textarea {
 		background-position: center;
 	}
 	.sc3 {
-		background:url(https://media.githubusercontent.com/media/CadoFox/CadoFox.github.io/main/gifs/CF_F401_RefracDecoFrames.gif);
+		background:url(/videos/CF_RefracLens.mp4);
 		background-size: cover;
 		background-attachment: inherit;
 		width: inherit;
