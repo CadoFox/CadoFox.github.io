@@ -2464,8 +2464,11 @@ input, select, textarea {
 	}
 
 .showcasevideo {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	position: fixed;
+	object-fit: cover; 
+	object-position: center center; 
+	opacity: 1;
 
 }
