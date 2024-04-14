@@ -2423,12 +2423,17 @@ input, select, textarea {
 }
 
 #showcase {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-		
+	display: flex;
+	flex-direction: column;
 }
 
+.showcase-div {
+	height: 50%;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+		
+}
 .showcase-container {
 	position: fixed;
     top: 0;
