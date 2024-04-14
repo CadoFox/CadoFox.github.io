@@ -2427,6 +2427,15 @@ input, select, textarea {
 		
 }
 
+.showcase-container {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: inherit;
+}
 .showcase-videosrc {
 	width: auto;
     height: 100%;
@@ -2437,15 +2446,7 @@ input, select, textarea {
     transform: translate(-50%, -50%)
 }
 
-.showcase-container {
-	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: inherit;
-}
+
 
 	.sc1 {
 		/* background: url(/videos/CF_FlyinAround-720.mp4); 
