@@ -2430,7 +2430,7 @@ input, select, textarea {
 		transform: translate(-50%, -50%);
 }
 
-#showcase video {
+.showcasevideosrc {
 	min-width: 100%;
     min-height: 100%;
     position: absolute;
@@ -2471,13 +2471,6 @@ input, select, textarea {
 	}
 
 .showcasevideo {
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	display: block;
 
 }
