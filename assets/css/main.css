@@ -2446,10 +2446,8 @@ input, select, textarea {
 .showcase-videosrc {
 	min-width: 100%;
     min-height: 100%;
-    position: absolute;
-    overflow: hidden;
-	top: 50%;
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-	object-fit: fill;
 }
