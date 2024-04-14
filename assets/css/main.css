@@ -2428,7 +2428,7 @@ input, select, textarea {
 }
 
 .showcase-div {
-	height: 50%;
+	height: 50em;
     object-position: center;
     display: flex;
     flex-direction: column;
