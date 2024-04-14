@@ -2255,6 +2255,7 @@ input, select, textarea {
 		height: 100%;
 		background-attachment: fixed, fixed;
 		background-position: center;
+		z-index: 1000;
 	}
 
 /* One */
@@ -2422,7 +2423,7 @@ input, select, textarea {
 }
 
 .showcase {
-		z-index: -1;
+		height: 100%;
 		
 }
 
