@@ -2422,7 +2422,7 @@ input, select, textarea {
 
 }
 
-#showcase {
+.showcase {
 	display: flex;
 	flex-direction: column;
 }
