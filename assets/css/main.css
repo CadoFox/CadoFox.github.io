@@ -2414,37 +2414,35 @@ input, select, textarea {
 }
 
 ::placeholder {
-	color: #bbbbbb;
-}
-
-#intro.blur {
-	filter: blur(10px);
-
+	color: #cdcdcd;
 }
 
 .showcase {
-  overflow: hidden; /* Ensure that the video containers don't overflow the viewport */
-}
-
+	overflow: hidden; /* Ensure that the video containers don't overflow the viewport */
+  }
+  
 .showcase-div {
-  position: relative; /* Set position to relative for absolute positioning of the video */
-  height: 50vh; /* Set the height of each video container to the full viewport height */
-  width: 100%; /* Make sure the container spans the full width of the viewport */
-}
-
+	position: relative; /* Set position to relative for absolute positioning of the video */
+	height: 100vh; /* Set the height of each video container to the full viewport height */
+	display: flex; /* Use flexbox for centering content */
+	justify-content: center; /* Horizontally center the content */
+	align-items: center; /* Vertically center the content */
+  }
+  
 .showcase-containter {
-  position: absolute; /* Set position to absolute for video positioning */
-  top: 0;
-  left: 0;
-  width: 100%; /* Ensure the video fills the entire container */
-  height: 100%; /* Ensure the video fills the entire container */
-  overflow: hidden; /* Hide any overflow */
-}
-
+	position: absolute; /* Set position to absolute for video positioning */
+	top: 0;
+	left: 0;
+	width: 100%; /* Ensure the video fills the entire container */
+	height: 100%; /* Ensure the video fills the entire container */
+	overflow: hidden; /* Hide any overflow */
+  }
+  
 .showcase-videosrc {
-  min-width: 100%; /* Set minimum width of the video to fill the container */
-  min-height: 100%; /* Set minimum height of the video to fill the container */
-  position: absolute; /* Position the video absolutely within its container */
-  top: 0;
-  left: 0;
-}
+	min-width: 100%; /* Set minimum width of the video to fill the container */
+	min-height: 100%; /* Set minimum height of the video to fill the container */
+	position: absolute; /* Position the video absolutely within its container */
+	top: 50%; /* Move video to the center vertically */
+	left: 50%; /* Move video to the center horizontally */
+	transform: translate(-50%, -50%); /* Center the video */
+  }
