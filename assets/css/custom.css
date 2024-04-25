@@ -110,7 +110,7 @@
 
 .showcase-containter {
   position: absolute;
-  top: calc(100vh * var(--video-index));
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -123,5 +123,5 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; /* Ensure videos are behind other content */
+  z-index: -1; 
 }
