@@ -129,3 +129,9 @@
 .galleryvideo {
     position: relative;
 }
+
+.gallerycontainer {
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
