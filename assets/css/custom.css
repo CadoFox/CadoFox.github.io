@@ -127,7 +127,9 @@
 }
 
 .galleryvideo {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .galleryvideosrc {
@@ -137,9 +139,4 @@
 
 .gallerycontainer {
     overflow: hidden;
-    position: relative;
-    width: auto;
-    display: flex;
-    align-content: center;
-    align-items: center;
 }
