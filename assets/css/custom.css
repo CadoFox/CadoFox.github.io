@@ -138,5 +138,7 @@
 }
 
 .gallerycontainer {
+    display: flex;
     overflow: hidden;
+    height: 13em;
 }
