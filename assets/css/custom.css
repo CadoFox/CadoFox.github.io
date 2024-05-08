@@ -130,8 +130,16 @@
     position: relative;
 }
 
+.galleryvideosrc {
+    position: relative;
+    width: 110%;
+}
+
 .gallerycontainer {
     overflow: hidden;
     position: relative;
     width: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
