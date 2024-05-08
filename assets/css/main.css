@@ -861,12 +861,12 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		color: #7e7e7e;
+		color: #4b4b4b;
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px #252525;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -1910,10 +1910,6 @@ input, select, textarea {
 
 		}
 
-	body {
-	/*	padding-top: 0em; */
-	}
-
 		@media screen and (max-width: 736px) {
 
 			body {
@@ -2181,7 +2177,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
+		background: #000000;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2255,6 +2251,7 @@ input, select, textarea {
 		height: 100%;
 		background-attachment: fixed, fixed;
 		background-position: center;
+		z-index: 1000;
 	}
 
 /* One */
@@ -2319,158 +2316,4 @@ input, select, textarea {
 
 
 
-	#cftext {
-		
-		background-position: contain;
-		background-attachment: local;
-		background-size: 30%;
-		background-repeat: no-repeat;
-}
-
-		@media screen and (max-width: 1000px) {
-			#cftext {
-				padding: 10em;
-				padding-top: 8em;
-				padding-bottom: 0em;
-			}
-		
-	}
-
-	.logo{
-		position: relative;
-		display: block;
-		width: 100%;
-		height: 100%;
-		
-
-	}
-	#headerlogo {
-		position: inherit;
-		display: inherit;
-		height: 100%;
-		width: auto;
-		padding: 1%;
-	 }
-		@media screen and (max-width: 736px){
-			#headerlogo {
-				display: none;
-			}
-		}
-
-	#introsubtitle{
-		font-family: 'dalfiltraregular';
-		font-weight: normal;
-  		font-style: normal;
-		font-size: larger;
-		padding-top: 2em;
-}
-
-/* Custom Fonts */
-@font-face {
-	font-family: 'adedisplay';
-	src: url('/assets/webfonts/AdeDisplay/ade-display-webfont.woff2') format('woff2'),
-	     url('/assets/webfonts/AdeDisplay/ade-display-webfont.woff') format('woff'),
-}
-
-@font-face {
-	font-family: 'eliantoregular';
-	src: url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff2') format('woff2'),
-		 url('/assets/webfonts/EliantoRegular/elianto-regular-webfont.woff') format('woff'),
-
-}
-
-@font-face {
-	font-family: 'cagerollstandard';
-	src: url('/assets/webfonts/CagerollStandardRegular/cageroll-standard-webfont.woff2') format('woff2'),
-		 url('/assets/webfonts/CagerollStandardRegular/cageroll-standard-webfont.woff') format('woff');
-
-}
-
-@font-face {
-	font-family: 'dalfiltraregular';
-	src: url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff2') format('woff2'),
-		 url('/assets/webfonts/DafiltraRegular/dalfitra-webfont.woff') format('woff');
-
-
-}
-
-@font-face {
-	font-family: 'hybridbold';
-	src: url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff2') format('woff2'),
-		 url('/assets/webfonts/Hybrid-b/hybrid_b-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'planetkosmosregular';
-	src: url('/assets/webfonts/PlanetKosmos/plank___-webfont.woff2') format('woff2'),
-		 url('/assets/webfonts/PlanetKosmos/plank___-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-::placeholder {
-	color: #bbbbbb;
-}
-
-#intro.blur {
-	filter: blur(10px);
-
-}
-
-.showcase {
-	display: flex;
-    flex-direction: column;
-    background-position: center;
-	background-attachment: fixed;
-	height: 90em;
-    width: 100%;
-	z-index: 100;
-    padding: 0 0 0 0;
-}
-
-	.sc1 {
-		/* background: url(/videos/CF_FlyinAround-720.mp4); 
-		background-size: cover;
-		background-attachment: inherit; */
-
-		width: inherit;
-		height: inherit;
-		background-position: center;
-		height: 100%; 
-		width: 100%; 
-		object-fit: cover; 
-		object-position: center center; 
-		opacity: 1;
-	}
-	.sc2 {
-		background:url(/videos/CF_WalkThroughFrames.mp4);
-		background-size: cover;
-		background-attachment: inherit;
-		width: inherit;
-		height: inherit;
-		background-position: center;
-	}
-	.sc3 {
-		background:url(/videos/CF_RefracLens.mp4);
-		background-size: cover;
-		background-attachment: inherit;
-		width: inherit;
-		height: inherit;
-		background-position: center;
-	}
-
-.showcasevideo {
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-
-}
+	

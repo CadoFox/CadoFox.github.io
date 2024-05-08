@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -50,15 +51,28 @@
 					<!-- </div> -->
 				</div>
 			</section>
-		<!-- Showcase -->
-			<section class="showcase">
-				<div class="showcasevideo">
-					<video playsinline preload="auto" muted loop autoplay src="/videos/CF_FlyinAround-720.mp4" type="video/mp4"></video>
-				</div>
-				
-			</section>
 
-		<!-- One -->
+
+		<!-- Showcase -->
+		<section class="showcase">
+			<div class="showcase-div" style="--video-index: 0;">
+			  <div class="showcase-container">
+				<video class="showcase-videosrc" playsinline preload="auto" muted loop autoplay src="/videos/CF_FlyinAround-720.mp4" type="video/mp4">
+				  your browser does not support the video tag
+				</video>
+			  </div>  
+			</div>
+			<div class="showcase-div" style="--video-index: 1;">
+			  <div class="showcase-container">
+				<video class="showcase-videosrc" playsinline preload="auto" muted loop autoplay src="/videos/another-video.mp4" type="video/mp4">
+				  your browser does not support the video tag
+				</video>
+			  </div>  
+			</div>
+			<!-- Add more video containers as needed -->
+		  </section>
+
+		<!-- About -->
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -69,7 +83,7 @@
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 
-		<!-- Two -->
+		<!-- Services -->
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -80,6 +94,9 @@
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
+
+
+
 
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
@@ -112,6 +129,8 @@
 						</div>
 				</div>
 			</section>
+
+
 
 		<!-- Contact -->
 			<section id="contact" class="main style3 secondary">
@@ -150,7 +169,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						<li>&copy; CadoFox 2024</li><li>Template: <a href="https://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</footer>
